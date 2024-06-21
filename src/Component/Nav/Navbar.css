@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Agustina;
+    src: url(../../../public/Fonts/Agustina.woff);
+  }
+.nav-container{
+    /* background-color: antiquewhite; */
+    font: 30px / 45px Montserrat-Regular, sans-serif;
+    width: 100%;
+    padding: 16px 0 25px 0;
+    transition: 0.3s ease-out;
+    backdrop-filter: blur(10px) brightness(1.2);
+    -webkit-backdrop-filter: blur(8px) brightness(1.2);
+    text-shadow: 0 0 7px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.nav-main{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.nav-title {
+    font-family: 'Agustina';
+    font-weight: 900;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+/* .nav-list {
+    margin-top: 2rem;
+
+} */
