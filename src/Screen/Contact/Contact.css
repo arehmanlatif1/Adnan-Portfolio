@@ -1,0 +1,62 @@
+.contact-container{
+    color: white;
+    font: 30px / 45px Montserrat-Regular, sans-serif;
+}
+
+.contact-div{ 
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-detail {
+    margin: 30px;
+}
+.contact-name {
+    font: 50px / 45px Montserrat-Regular, sans-serif;
+    margin-bottom: 2rem ;
+}
+.contact-msg {
+    font: 20px / 25px Montserrat-Regular, sans-serif;
+    margin-bottom: 2rem ;
+}
+
+.contact-email {
+    font: 20px / 25px Montserrat-Regular, sans-serif;
+    margin-bottom: 2rem ;
+}
+
+.contact-num {
+    font: 20px / 25px Montserrat-Regular, sans-serif;
+    margin-bottom: 2rem ;
+}
+.contact-icon{
+    color: white;
+    margin: 1rem;
+}
+
+.form-label {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font: 25px / 30px Montserrat-Regular, sans-serif;
+}
+.form-input {
+    height: 5.5vh;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    transition: border-color 0.3s ease;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 10px 0px 10px 0;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+  }
