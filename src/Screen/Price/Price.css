@@ -1,11 +1,46 @@
-.title {
-    background-image: url(../../Assets/Backgrounds/nyc.JPG);
-    color: white;
+@font-face {
+    font-family: PlaywriteNGModern-VariableFont_wght;
+    src: url(../../../public/Fonts/PlaywriteNGModern-VariableFont_wght.ttf);
 }
 .price-img {
     width: 100%;
+    height: 50%;
 }
 .price-pic{
     width: 50%;
+    height: 30rem;
 
 }
+
+.wed-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.title {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .price-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: PlaywriteNGModern-VariableFont_wght;
+  }
+  .price-msg {
+    font-family: PlaywriteNGModern-VariableFont_wght;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+    margin-left: 25%;
+ }
