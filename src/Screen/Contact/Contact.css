@@ -9,7 +9,10 @@
 }
 
 .contact-detail {
-    margin: 30px;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    width: 50%;
 }
 .contact-name {
     font: 50px / 45px Montserrat-Regular, sans-serif;
@@ -34,19 +37,28 @@
     margin: 1rem;
 }
 
+.contact-form {
+    margin-right: 4rem;
+    width: 50%;
+}
+
 .form-label {
-    margin-top: 2rem;
-    font-size: 1.5rem;
     font: 25px / 30px Montserrat-Regular, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
 }
 .form-input {
-    height: 5.5vh;
     border: 2px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 15px;
-    padding: 20px;
+    padding: 10px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     transition: border-color 0.3s ease;
+    width: 25rem;
+    font: 25px / 30px Montserrat-Regular, sans-serif;
+}
+.select-form {
+    height: 2rem;
 }
 
 textarea {
@@ -60,3 +72,18 @@ textarea {
     border-radius: 5px;
     border: 1px solid rgb(220, 220, 220);
   }
+  .contact-button {
+    background-color: black;
+    color: white;
+    width: 8rem;
+    height: 5rem;
+    margin-bottom: 30rem ;
+    margin-top: 2rem;
+    border: 1px solid rgb(220, 220, 220);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    font: 15px / 20px Montserrat-Regular, sans-serif;
+  }
+
+                                                    /* Media Query  */
+
+
